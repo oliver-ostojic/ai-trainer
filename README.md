@@ -41,6 +41,12 @@
 
 ### Installation
 1. Clone the repository:
-   
+
    ```bash
    git clone https://github.com/your-username/ai-trainer.git
+   
+3. Open the project in xcode:
+
+   ```bash
+   cd ai-trainer
+   open AITrainer.xcodeproj
