@@ -12,9 +12,6 @@
 - **AI-Powered Recommendations**  
   Get personalized suggestions for weights, reps, and sets based on your workout history and progress.
 
-- **Machine Recognition**  
-  Use your camera to scan gym equipment, and the app will automatically identify the machine and pre-fill your workout data.
-
 - **Dynamic Workout Scheduling**  
   Create and manage workout plans, such as "Leg Day" or "Arm Day," and receive reminders for scheduled workouts.
 
@@ -35,17 +32,6 @@
 
 ---
 
-## Why AI Trainer?
-
-AI Trainer combines the best of **fitness tracking** and **AI-driven insights** to ensure your workouts are:
-- **Effective:** Receive personalized workout suggestions tailored to your progress.
-- **Efficient:** Automate data entry with machine recognition for gym equipment.
-- **Engaging:** Stay motivated with progress analytics and achievement tracking.
-
-Whether you're a beginner or an experienced lifter, this app adapts to your needs and helps you crush your fitness goals!
-
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -55,6 +41,6 @@ Whether you're a beginner or an experienced lifter, this app adapts to your need
 
 ### Installation
 1. Clone the repository:
-   ```bash
    
+   ```bash
    git clone https://github.com/your-username/ai-trainer.git
