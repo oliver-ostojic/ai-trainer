@@ -56,4 +56,5 @@ Whether you're a beginner or an experienced lifter, this app adapts to your need
 ### Installation
 1. Clone the repository:
    ```bash
+   
    git clone https://github.com/your-username/ai-trainer.git
