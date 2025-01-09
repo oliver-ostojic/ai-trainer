@@ -21,18 +21,127 @@
 			remoteGlobalIDString = 66355BC62D2CC9BF00D5ACE7;
 			remoteInfo = "AI Trainer";
 		};
+		668773CE2D301EC400369FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66355BBF2D2CC9BF00D5ACE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66355BC62D2CC9BF00D5ACE7;
+			remoteInfo = "AI Trainer";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		66355BC72D2CC9BF00D5ACE7 /* AI Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66355BD72D2CC9C500D5ACE7 /* AI TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66355BE12D2CC9C500D5ACE7 /* AI TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668773CA2D301EC400369FE2 /* Model Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Model Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668773DB2D30213100369FE2 /* AI Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668773E42D3022AF00369FE2 /* AI TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668773E52D3022AF00369FE2 /* AI TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668773FA2D306FD400369FE2 /* AI Trainer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AI Trainer.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		668773E32D30225800369FE2 /* Exceptions for "Tests" folder in "AI TrainerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Model Unit Tests/Model_Unit_Tests.swift",
+			);
+			target = 66355BD62D2CC9C500D5ACE7 /* AI TrainerTests */;
+		};
+		668773E72D30230100369FE2 /* Exceptions for "Models" folder in "AI Trainer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Insight.swift,
+				Progress.swift,
+				Recommendation.swift,
+				Statistic.swift,
+				Trainer.swift,
+				User.swift,
+				Workout.swift,
+				WorkoutSession.swift,
+			);
+			target = 66355BC62D2CC9BF00D5ACE7 /* AI Trainer */;
+		};
+		668773F72D302FC800369FE2 /* Exceptions for "Views" folder in "AI Trainer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+			);
+			target = 66355BC62D2CC9BF00D5ACE7 /* AI Trainer */;
+		};
+		668773F92D30305800369FE2 /* Exceptions for "App" folder in "AI Trainer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AI_TrainerApp.swift,
+			);
+			target = 66355BC62D2CC9BF00D5ACE7 /* AI Trainer */;
+		};
+		668774152D3073BF00369FE2 /* Exceptions for "Services" folder in "AI Trainer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoreDataManager.swift,
+			);
+			target = 66355BC62D2CC9BF00D5ACE7 /* AI Trainer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		668773AD2D2DCC8E00369FE2 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				668773F92D30305800369FE2 /* Exceptions for "App" folder in "AI Trainer" target */,
+			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		668773AE2D2DCD0600369FE2 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		668773AF2D2DCD0D00369FE2 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				668773E72D30230100369FE2 /* Exceptions for "Models" folder in "AI Trainer" target */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		668773B02D2DCD1A00369FE2 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		668773B12D2DCD2200369FE2 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				668773F72D302FC800369FE2 /* Exceptions for "Views" folder in "AI Trainer" target */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		668773B22D2DCD2700369FE2 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				668774152D3073BF00369FE2 /* Exceptions for "Services" folder in "AI Trainer" target */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		668773B32D2DCD3600369FE2 /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		668773C52D301EA200369FE2 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				668773E32D30225800369FE2 /* Exceptions for "Tests" folder in "AI TrainerTests" target */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		668773F02D30261000369FE2 /* AI Trainer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AI Trainer";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -59,25 +168,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		668773C72D301EC400369FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		66355BBE2D2CC9BF00D5ACE7 = {
 			isa = PBXGroup;
 			children = (
+				668773FA2D306FD400369FE2 /* AI Trainer.xctestplan */,
+				668773F02D30261000369FE2 /* AI Trainer */,
+				668773B32D2DCD3600369FE2 /* Helpers */,
+				668773B22D2DCD2700369FE2 /* Services */,
+				668773B12D2DCD2200369FE2 /* Views */,
+				668773B02D2DCD1A00369FE2 /* ViewModels */,
+				668773AF2D2DCD0D00369FE2 /* Models */,
+				668773AE2D2DCD0600369FE2 /* Resources */,
 				668773AD2D2DCC8E00369FE2 /* App */,
-				66355BC82D2CC9BF00D5ACE7 /* Products */,
+				668773C52D301EA200369FE2 /* Tests */,
+				668773CA2D301EC400369FE2 /* Model Unit Tests.xctest */,
+				668773DB2D30213100369FE2 /* AI Trainer.app */,
+				668773E42D3022AF00369FE2 /* AI TrainerTests.xctest */,
+				668773E52D3022AF00369FE2 /* AI TrainerUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		66355BC82D2CC9BF00D5ACE7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66355BC72D2CC9BF00D5ACE7 /* AI Trainer.app */,
-				66355BD72D2CC9C500D5ACE7 /* AI TrainerTests.xctest */,
-				66355BE12D2CC9C500D5ACE7 /* AI TrainerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +217,7 @@
 			packageProductDependencies = (
 			);
 			productName = "AI Trainer";
-			productReference = 66355BC72D2CC9BF00D5ACE7 /* AI Trainer.app */;
+			productReference = 668773DB2D30213100369FE2 /* AI Trainer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		66355BD62D2CC9C500D5ACE7 /* AI TrainerTests */ = {
@@ -119,7 +237,7 @@
 			packageProductDependencies = (
 			);
 			productName = "AI TrainerTests";
-			productReference = 66355BD72D2CC9C500D5ACE7 /* AI TrainerTests.xctest */;
+			productReference = 668773E42D3022AF00369FE2 /* AI TrainerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		66355BE02D2CC9C500D5ACE7 /* AI TrainerUITests */ = {
@@ -139,8 +257,28 @@
 			packageProductDependencies = (
 			);
 			productName = "AI TrainerUITests";
-			productReference = 66355BE12D2CC9C500D5ACE7 /* AI TrainerUITests.xctest */;
+			productReference = 668773E52D3022AF00369FE2 /* AI TrainerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		668773C92D301EC400369FE2 /* Model Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668773D02D301EC400369FE2 /* Build configuration list for PBXNativeTarget "Model Unit Tests" */;
+			buildPhases = (
+				668773C62D301EC400369FE2 /* Sources */,
+				668773C72D301EC400369FE2 /* Frameworks */,
+				668773C82D301EC400369FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668773CF2D301EC400369FE2 /* PBXTargetDependency */,
+			);
+			name = "Model Unit Tests";
+			packageProductDependencies = (
+			);
+			productName = "Model Unit Tests";
+			productReference = 668773CA2D301EC400369FE2 /* Model Unit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -163,6 +301,10 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 66355BC62D2CC9BF00D5ACE7;
 					};
+					668773C92D301EC400369FE2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 66355BC62D2CC9BF00D5ACE7;
+					};
 				};
 			};
 			buildConfigurationList = 66355BC22D2CC9BF00D5ACE7 /* Build configuration list for PBXProject "AI Trainer" */;
@@ -175,13 +317,14 @@
 			mainGroup = 66355BBE2D2CC9BF00D5ACE7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 66355BC82D2CC9BF00D5ACE7 /* Products */;
+			productRefGroup = 66355BBE2D2CC9BF00D5ACE7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				66355BC62D2CC9BF00D5ACE7 /* AI Trainer */,
 				66355BD62D2CC9C500D5ACE7 /* AI TrainerTests */,
 				66355BE02D2CC9C500D5ACE7 /* AI TrainerUITests */,
+				668773C92D301EC400369FE2 /* Model Unit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +345,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		66355BDF2D2CC9C500D5ACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668773C82D301EC400369FE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,6 +382,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		668773C62D301EC400369FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +401,11 @@
 			isa = PBXTargetDependency;
 			target = 66355BC62D2CC9BF00D5ACE7 /* AI Trainer */;
 			targetProxy = 66355BE22D2CC9C500D5ACE7 /* PBXContainerItemProxy */;
+		};
+		668773CF2D301EC400369FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66355BC62D2CC9BF00D5ACE7 /* AI Trainer */;
+			targetProxy = 668773CE2D301EC400369FE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,6 +653,40 @@
 			};
 			name = Release;
 		};
+		668773D12D301EC400369FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.oliverostojic.Model-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Trainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Trainer";
+			};
+			name = Debug;
+		};
+		668773D22D301EC400369FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.oliverostojic.Model-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Trainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Trainer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -526,6 +722,15 @@
 			buildConfigurations = (
 				66355BF22D2CC9C500D5ACE7 /* Debug */,
 				66355BF32D2CC9C500D5ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668773D02D301EC400369FE2 /* Build configuration list for PBXNativeTarget "Model Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668773D12D301EC400369FE2 /* Debug */,
+				668773D22D301EC400369FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "63288045-7E9F-41FC-89B7-3A9D00B3BDDF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:AI Trainer.xcodeproj",
+      "identifier" : "66355BC62D2CC9BF00D5ACE7",
+      "name" : "AI Trainer"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AI Trainer.xcodeproj",
+        "identifier" : "66355BD62D2CC9C500D5ACE7",
+        "name" : "AI TrainerTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AI Trainer.xcodeproj",
+        "identifier" : "66355BE02D2CC9C500D5ACE7",
+        "name" : "AI TrainerUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AI Trainer.xcodeproj",
+        "identifier" : "668773C92D301EC400369FE2",
+        "name" : "Model Unit Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
